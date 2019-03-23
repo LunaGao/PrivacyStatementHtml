@@ -3,6 +3,8 @@
 
 ### [美妈Go](http://lunagao.github.io/PrivacyStatementHtml/meimago.html)
 
+### [复制二维码](http://lunagao.github.io/PrivacyStatementHtml/copycode.html)
+
 ### [宝贝阅读](http://lunagao.github.io/PrivacyStatementHtml/babybooklist.html)
 
 ### [Bamboo](http://lunagao.github.io/PrivacyStatementHtml/bamboo.html)
