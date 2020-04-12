@@ -8,3 +8,5 @@
 ### [宝贝阅读](http://lunagao.github.io/PrivacyStatementHtml/babybooklist.html)
 
 ### [Bamboo](http://lunagao.github.io/PrivacyStatementHtml/bamboo.html)
+
+### [WinWin-editor](http://lunagao.github.io/PrivacyStatementHtml/hexo-winwin-editor.html)
