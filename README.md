@@ -10,3 +10,5 @@
 ### [Bamboo](http://lunagao.github.io/PrivacyStatementHtml/bamboo.html)
 
 ### [WinWin-editor](http://lunagao.github.io/PrivacyStatementHtml/hexo-winwin-editor.html)
+
+### [际云事物云](http://lunagao.github.io/PrivacyStatementHtml/dailyduty.html)
