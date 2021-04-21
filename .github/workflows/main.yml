@@ -38,7 +38,7 @@ jobs:
           # Aliyun OSS bucket instance.
           bucket: 'maomishen-static-web'
           # OSS region domain
-#           endpoint: 
+          endpoint: 'oss-cn-shenzhen.aliyuncs.com'
           # `true` to identify the endpoint is your custom domain.
 #           cname: # optional, default is false
           # `true` to skip setting static pages related configuration. `indexPage`, `notFoundPage` will not be used.
