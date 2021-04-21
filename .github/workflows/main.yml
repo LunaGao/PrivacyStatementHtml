@@ -32,9 +32,9 @@ jobs:
           # Exclude file from the folder
 #           exclude: # optional
           # Aliyun OSS accessKeyId.
-          accessKeyId: 'aaa'
+          accessKeyId: ${{ secrets.ACCESSKEYID }}
           # Aliyun OSS accessKeySecret.
-          accessKeySecret: 'bbb'
+          accessKeySecret: ${{ secrets.ACCESSKEYSECRET }}
           # Aliyun OSS bucket instance.
           bucket: 'maomishen-static-web'
           # OSS region domain
