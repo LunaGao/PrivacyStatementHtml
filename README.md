@@ -12,3 +12,5 @@
 ### [WinWin-editor](http://lunagao.github.io/PrivacyStatementHtml/hexo-winwin-editor.html)
 
 ### [际云事物云](http://lunagao.github.io/PrivacyStatementHtml/dailyduty.html)
+
+### [Morse Code Practice](http://lunagao.github.io/PrivacyStatementHtml/morsecode.html)
