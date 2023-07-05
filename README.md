@@ -14,3 +14,5 @@
 ### [际云事物云](http://lunagao.github.io/PrivacyStatementHtml/dailyduty.html)
 
 ### [Morse Code Practice](http://lunagao.github.io/PrivacyStatementHtml/morsecode.html)
+
+### [Pinyin - Dictation](http://lunagao.github.io/PrivacyStatementHtml/pinyin.html)
