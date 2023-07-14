@@ -16,3 +16,5 @@
 ### [Morse Code Practice](http://lunagao.github.io/PrivacyStatementHtml/morsecode.html)
 
 ### [Pinyin - Dictation](http://lunagao.github.io/PrivacyStatementHtml/pinyin.html)
+
+### [Just A Player](https://lunagao.github.io/PrivacyStatementHtml/justaplayer.html)
