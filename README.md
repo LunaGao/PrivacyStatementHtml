@@ -20,3 +20,5 @@
 ### [Just A Player](https://lunagao.github.io/PrivacyStatementHtml/justaplayer.html)
 
 ### [Voice Reminder](https://lunagao.github.io/PrivacyStatementHtml/voicereminder.html)
+
+### [Remember Hub](https://lunagao.github.io/PrivacyStatementHtml/rememberhub.html)
