@@ -22,3 +22,7 @@
 ### [Voice Reminder](https://lunagao.github.io/PrivacyStatementHtml/voicereminder.html)
 
 ### [Remember Hub](https://lunagao.github.io/PrivacyStatementHtml/rememberhub.html)
+
+### Chinglihs
+* [Privacy Policy](https://lunagao.github.io/PrivacyStatementHtml/chinglish/privacy_policy.html)
+* [Terms & Conditions](https://lunagao.github.io/PrivacyStatementHtml/chinglish/terms_conditions.html)
