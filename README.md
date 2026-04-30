@@ -11,8 +11,6 @@
 
 ### [WinWin-editor](https://lunagao.github.io/PrivacyStatementHtml/hexo-winwin-editor.html)
 
-### [际云事物云](https://lunagao.github.io/PrivacyStatementHtml/dailyduty.html)
-
 ### [Morse Code Practice](https://lunagao.github.io/PrivacyStatementHtml/morsecode.html)
 
 ### [Pinyin - Dictation](https://lunagao.github.io/PrivacyStatementHtml/pinyin.html)
@@ -27,6 +25,6 @@
 * [Privacy Policy](https://lunagao.github.io/PrivacyStatementHtml/chinglish/privacy_policy.html)
 * [Terms & Conditions](https://lunagao.github.io/PrivacyStatementHtml/chinglish/terms_conditions.html)
 
-### Weee
+### Weeeee
 * [Privacy Policy](https://lunagao.github.io/PrivacyStatementHtml/weee/privacy_policy.html)
 * [Terms & Conditions](https://lunagao.github.io/PrivacyStatementHtml/weee/terms_conditions.html)
