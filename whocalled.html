@@ -71,9 +71,9 @@
     <div class="important-notice">
         <strong>Important:</strong> WhoCalled records notifications only after you grant notification access.
         Notification content may contain personal or sensitive information, such as sender names, messages, or
-        verification codes. Notification records are stored in the app's private local database and are not uploaded
-        to a server operated by us. However, Sentry, our diagnostics provider, may receive diagnostic data and crash
-        screenshots that could include information visible in the app, as explained in Section 4.
+        verification codes. Notification records are stored only in the app's private local database and are excluded
+        from Android backups. They are not uploaded to a server operated by us. Sentry separately processes limited
+        crash diagnostics, device information, and sampled performance data, as explained in Section 4.
     </div>
 
     <h2>1. Information WhoCalled Processes</h2>
@@ -112,34 +112,31 @@
         <li>To comply with applicable legal obligations</li>
     </ul>
 
-    <h2>3. Local Storage, Android Backups, and Retention</h2>
+    <h2>3. Local Storage and Retention</h2>
     <p>Notification records are stored in a private SQLite database on your device. Other apps cannot directly access
         this database under Android's standard security model. We do not operate a server that receives a copy of your
         notification database.</p>
+    <p>Android backup is disabled for WhoCalled, and the notification database is excluded from backup. Your
+        notification history therefore remains in the app's local storage rather than being copied to a cloud backup
+        service.</p>
     <p>Records remain on your device until you delete them, clear the app's data, or uninstall the app. You can delete
         all locally stored notification history and statistics by selecting <strong>Clear data</strong> in the app's
         settings. Revoking notification access stops future notification collection but does not delete records that
         have already been saved.</p>
-    <p>Android's backup and restore features may back up app data, including the notification database, to your
-        device's backup provider, depending on your Android version, device, and backup settings. That provider is
-        typically Google. Backup copies are governed by the provider's own privacy and retention policies and may not
-        be deleted immediately when you clear or uninstall the app. You can manage backup settings through your device
-        or backup provider.</p>
 
-    <h2>4. Sentry Diagnostics and Performance Monitoring</h2>
-    <p>WhoCalled uses Sentry, a third-party service provided by Functional Software, Inc., to identify technical
-        problems, monitor app performance, and improve stability. Sentry may automatically receive and process:</p>
+    <h2>4. Sentry Crash Diagnostics and Performance Monitoring</h2>
+    <p>WhoCalled uses Sentry, a third-party service provided by Functional Software, Inc., to diagnose crashes and
+        improve app stability. Sentry's data collection in WhoCalled is limited to:</p>
     <ul>
-        <li>Crash reports, stack traces, error details, and diagnostic logs</li>
-        <li>Device model, operating system version, app version, and related technical information</li>
-        <li>IP address and information derived from it</li>
-        <li>App usage events, performance measurements, and user-interaction breadcrumbs, such as taps, swipes, and
-            scrolling</li>
-        <li>Screenshots and view-hierarchy information attached to crash reports</li>
+        <li>Crash diagnostics, including crash reports, stack traces, and error details</li>
+        <li>Device information, including device model, operating system version, app version, and related technical
+            information</li>
+        <li>Performance monitoring data sampled at 10%, meaning that only 10% of eligible performance transactions are
+            sent to Sentry</li>
     </ul>
-    <p>A crash screenshot or view hierarchy may contain notification content or other personal information visible on
-        the screen when the crash occurs. This diagnostic information is transmitted to Sentry rather than retained
-        only on your device. Sentry processes information in accordance with its own privacy policy:</p>
+    <p>Sentry diagnostic logs, user-interaction breadcrumbs, crash screenshots, and view-hierarchy attachments are
+        disabled. Sentry is not used to upload your notification history. The limited information described above is
+        transmitted to Sentry and processed in accordance with its own privacy policy:</p>
     <ul>
         <li><a href="https://sentry.io/privacy/" target="_blank" rel="noopener noreferrer">Sentry Privacy Policy</a></li>
         <li><a href="https://docs.sentry.io/platforms/android/data-management/data-collected/" target="_blank"
@@ -174,12 +171,10 @@
     <p>We do not sell or rent your personal information for money. We do not provide our locally stored notification
         database to AdMob or other advertising networks. We may disclose information in the following circumstances:</p>
     <ul>
-        <li><strong>Service Providers:</strong> Sentry processes diagnostic and performance information on our behalf
-            as described in Section 4</li>
+        <li><strong>Service Providers:</strong> Sentry processes crash diagnostics, device information, and sampled
+            performance data on our behalf as described in Section 4</li>
         <li><strong>Advertising Partners:</strong> Google AdMob processes device, advertising, and interaction data as
             described in Section 5</li>
-        <li><strong>Backup Providers:</strong> Your Android backup provider may process app data when system backup is
-            enabled</li>
         <li><strong>Legal Requirements:</strong> When disclosure is necessary to comply with applicable law,
             regulation, legal process, or a valid government request</li>
         <li><strong>Protection of Rights and Safety:</strong> When necessary to protect our rights, users, systems, or
@@ -198,8 +193,6 @@
             access for WhoCalled. This prevents future collection but does not erase existing records.</li>
         <li><strong>Delete Local Records:</strong> Use <strong>Clear data</strong> in WhoCalled's settings, clear the
             app's storage through Android settings, or uninstall the app.</li>
-        <li><strong>Manage Backups:</strong> Change or disable backup options in your device or backup account
-            settings.</li>
         <li><strong>Manage Ad Personalization:</strong> Use the Android and Google advertising controls described in
             Section 5. You can also delete or reset your Android Advertising ID through your device settings, where
             supported.</li>
@@ -224,15 +217,15 @@
     </ul>
 
     <h2>9. International Data Transfers</h2>
-    <p>Sentry, Google AdMob, and your device backup provider may process information in countries other than the one in
-        which you live. Where required, appropriate safeguards are used for international transfers in accordance with
-        applicable data protection laws and the relevant provider's policies.</p>
+    <p>Sentry and Google AdMob may process information in countries other than the one in which you live. Where
+        required, appropriate safeguards are used for international transfers in accordance with applicable data
+        protection laws and the relevant provider's policies.</p>
 
     <h2>10. Data Security</h2>
     <p>We use reasonable technical and organizational measures designed to protect information, including Android's
         private app storage for notification records. However, no app, electronic storage system, or transmission over
         the Internet can be guaranteed to be completely secure. You should protect your device and consider the
-        sensitivity of notification content before enabling notification access or system backups.</p>
+        sensitivity of notification content before enabling notification access.</p>
 
     <h2>11. Children's Privacy</h2>
     <p>WhoCalled is not directed to children under 13, and we do not knowingly collect personal information from
